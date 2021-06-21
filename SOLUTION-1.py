@@ -5,7 +5,7 @@ for number1 in range(999, 100, -1):
         number = number1*number2
         str_number = str(number)[::-1]
         if str_number == str(number):
-            store.append(number1)
+            store.append(number)
         else:
             pass
 
